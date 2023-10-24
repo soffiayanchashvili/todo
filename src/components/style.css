@@ -1,0 +1,90 @@
+.todolist {
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  width: 80%;
+}
+header {
+  padding-right: 60px;
+  border-right: 1px solid;
+  border-color: #d8d8d8;
+}
+nav {
+  margin-top: 139px;
+  margin-bottom: 120px;
+}
+li {
+  list-style: none;
+}
+.categoris {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: justify;
+  gap: 20px;
+}
+section {
+  text-align: justify;
+  margin-left: 53px;
+  margin-top: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+h1 {
+  font-size: 31px;
+  font-weight: 500;
+}
+.addDiv {
+  display: flex;
+  gap: 10px;
+}
+.addTodo {
+  background-color: rgba(243, 243, 243, 1);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 27px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  cursor: pointer;
+}
+.addOnList {
+  padding: 10px;
+  border: none;
+  background-color: rgba(234, 89, 89, 1);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.checkbox {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ea5959;
+}
+.todo {
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+  gap: 10px;
+  width: 91%;
+}
+.list li {
+  color: #5a5a5a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 2px;
+}
+.category {
+  border-radius: 8px;
+  background-color: #ea5959;
+  color: white;
+  padding: 5px 19px;
+}
